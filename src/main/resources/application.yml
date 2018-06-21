@@ -9,3 +9,6 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/process-center?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull
     username: root
     password: root
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
