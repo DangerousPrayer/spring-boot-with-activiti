@@ -33,7 +33,7 @@
             <td>{{$value.version}}</td>
             <td>{{$value.createTime}}</td>
             <td>
-                <a href="/modeler.html?modelId={{$value.id}}">编辑</a>
+                <a href="/editor?modelId={{$value.id}}">编辑</a>
              <a href="javascript: AJAX.DELETE('/models/{{$value.id}}')">删除</a>
              <a href="javascript: AJAX.POST('/models/{{$value.id}}/deployment')">发布</a>
             </td>
